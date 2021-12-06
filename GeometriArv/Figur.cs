@@ -139,9 +139,9 @@ namespace GeometriArv
         {
             double s = (a + b - c + d) / 2;
 
-            double h = (2 / (a - c)) * Math.Sqrt(s * (s - a + c) * (s - b) * (s - d));
+            double h = (2 / (a - c)) * (Math.Sqrt(s * (s - a + c) * (s - b) * (s - d)));
 
-            Areal = 0.5 * (a + c) * h;
+            Areal = h;
         }
     }
 
