@@ -81,7 +81,7 @@ namespace GeometriArv
 
         public override void SetAreal()
         {
-            Areal = a * b * Math.Sin(v);
+            Areal = a * b * Math.Sin(Math.PI * v / 180);
         }
 
     }
